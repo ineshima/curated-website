@@ -1,0 +1,31 @@
+html {
+    background-color: rgb(223, 223, 223);
+    display:flex;
+    justify-content: center;
+}
+
+body{
+    width:1000px;
+    background-color:rgb(241, 241, 241);
+    margin:0px;
+    display:flex;
+    flex-direction: column;
+}
+
+.header{
+    height:200px;
+    width:1000px;
+    background-color: rgb(89, 160, 89);
+    display:flex;
+}
+
+.text-scroll{
+    height:20px;
+    width:1000px;
+    background-color:white;
+    display:flex;
+}
+
+.main-body{
+    display:flex;
+}
