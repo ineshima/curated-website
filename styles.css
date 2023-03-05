@@ -15,8 +15,13 @@ body{
 .header{
     height:200px;
     width:1000px;
+    background-image: url(images/dots.png), url(images/header.jpg);
+    background-size:40px, cover;
+    background-repeat: repeat, no-repeat;
     background-color: rgb(89, 160, 89);
     display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .text-scroll{
@@ -28,4 +33,27 @@ body{
 
 .main-body{
     display:flex;
+}
+
+.logo-top{
+    font-family: 'Fugaz One', cursive;
+    font-size: 120px;
+    color:white;
+
+    display:flex;
+    position:absolute;
+    top:110px;
+}
+
+.logo-bottom{
+    font-family: 'Fugaz One', cursive;
+    font-size: 120px;
+    color:rgb(241, 241, 241);
+    font-weight: 900;
+
+    -webkit-text-stroke: 25px rgb(241, 241, 241);
+
+    display:flex;
+    position:absolute;
+    top:110px;
 }
