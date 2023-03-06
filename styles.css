@@ -175,3 +175,30 @@ a:hover{
  li a:hover{
     margin-left:5px;
  }
+
+ .main-text{
+    padding:20px;
+    padding-top:40px;
+    color:rgb(131, 131, 131);
+ }
+
+
+ /*BLOG POST BLOCK ------------------------------------------------------ :)*/
+ .subtitle{
+    font-family:'DotGothic16', monospace;
+    color:rgb(77, 77, 77);
+ }
+ h2{
+    font-size: 30px;
+    margin:0px;
+
+    padding-top:10px;
+    padding-bottom:10px;
+
+    border-bottom:rgb(141, 81, 138) dashed 2px;
+ }
+ .post-date{
+    padding-top:10px;
+    font-family:'DotGothic16', monospace;
+    color:rgb(77, 77, 77);
+ }
