@@ -4,7 +4,7 @@ html {
     background-repeat: repeat, no-repeat;
     background-color: rgb(0, 0, 0);
     justify-content: center;
-    font-family:'Rubik', sans-serif
+    font-family:'News Cycle', sans-serif
 }
 
 body{
@@ -180,10 +180,20 @@ a:hover{
     padding:20px;
     padding-top:40px;
     color:rgb(131, 131, 131);
+    width:800px;
  }
 
 
  /*BLOG POST BLOCK ------------------------------------------------------ :)*/
+ .blog-post{
+    display:flex;
+    flex-direction: column;
+ }
+
+ .title-block{
+    display:flex;
+    flex-direction: column;
+ }
  .subtitle{
     font-family:'DotGothic16', monospace;
     color:rgb(77, 77, 77);
@@ -192,13 +202,29 @@ a:hover{
     font-size: 30px;
     margin:0px;
 
-    padding-top:10px;
-    padding-bottom:10px;
+    padding-top:0px;
+    padding-bottom:5px;
 
     border-bottom:rgb(141, 81, 138) dashed 2px;
  }
  .post-date{
-    padding-top:10px;
+    padding-top:5px;
     font-family:'DotGothic16', monospace;
-    color:rgb(77, 77, 77);
+    color:rgb(141, 81, 138);
  }
+.post-body{
+    display:flex;
+    flex-direction: column;
+    width:800px;
+
+    padding-bottom: 20px;
+    border-bottom:rgb(141, 81, 138) dashed 2px;
+}
+.post-body p{
+    text-indent: 40px;
+    width:700px;
+    margin:8px;
+}
+.post-body .first-paragraph{
+    text-indent: 0px;
+}
