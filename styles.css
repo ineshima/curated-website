@@ -41,12 +41,22 @@ body{
     font-family: 'Syne Mono', monospace;
     padding:3px;
     overflow:hidden;
+    user-select: none;
     
     margin:0px;
 }
 
 .main-body{
     display:flex;
+}
+
+.logo{
+    display:flex;
+    flex-basis:content;
+    justify-content: center;
+
+    width:500px;
+    height:200px;
 }
 
 .logo-top{
@@ -89,6 +99,11 @@ body{
 
 .nav-bar{
     background-color: red;
-    width:200px;
+    width:150px;
     display:flex;
+}
+
+::selection{
+    background-color: pink;
+    color:white;
 }
