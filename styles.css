@@ -148,6 +148,9 @@ li::marker{
 .twitter::marker{
     color:rgb(130, 166, 219);
 }
+.github::marker{
+    color:rgb(209, 209, 209);
+}
 .twitter{
     margin-top:12px;
 }
