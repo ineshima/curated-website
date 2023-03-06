@@ -19,7 +19,7 @@ body{
     margin:0px;
     width:1000px;
     flex-shrink:0;
-    background-color:rgb(53, 53, 53);
+    background-color:rgb(26, 26, 26);
 }
 .sidebar-left{
     display:flex;
@@ -119,6 +119,8 @@ body{
     width:150px;
     height:100vh;
 
+    font-family:'DotGothic16', monospace;
+
     display:flex;
 
     background-image: url(images/dots.png), url(images/sidebar.png);
@@ -133,6 +135,10 @@ body{
 
 ul{
     padding-left: 30px;
+}
+.stickynav{
+    position:fixed;
+    /*top:10px;*/
 }
 li{
     padding-left:5px;
@@ -164,7 +170,7 @@ a:hover{
     color:rgb(134, 134, 134);
 }
  li a{
-    transition: margin-left 0.2s;
+    transition: margin-left 0.1s;
  }
  li a:hover{
     margin-left:5px;
