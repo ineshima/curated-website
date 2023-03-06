@@ -221,10 +221,18 @@ a:hover{
     border-bottom:rgb(141, 81, 138) dashed 2px;
 }
 .post-body p{
-    text-indent: 40px;
+    text-indent: 35px;
     width:700px;
     margin:8px;
 }
 .post-body .first-paragraph{
     text-indent: 0px;
+}
+.first-paragraph::first-letter{
+    color: rgb(141, 81, 138);
+    background-color: rgb(20, 20, 20);
+    font-size: 250%;
+    padding: 6px 3px;
+    margin-right: 6px;
+    float: left;
 }
