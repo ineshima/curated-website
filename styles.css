@@ -16,6 +16,7 @@ body{
 .page-center{
     display:flex;
     flex-direction: column;
+    height:max-content;
     margin:0px;
     width:1000px;
     flex-shrink:0;
@@ -117,7 +118,6 @@ body{
 .nav-bar{
     background-color: rgb(43, 43, 43);
     width:150px;
-    height:100vh;
 
     font-family:'DotGothic16', monospace;
 
@@ -177,6 +177,9 @@ a:hover{
  }
 
  .main-text{
+    display:flex;
+    flex-direction: column;
+
     padding:20px;
     padding-top:40px;
     color:rgb(131, 131, 131);
@@ -242,4 +245,16 @@ a:hover{
     padding: 6px 3px;
     margin-right: 6px;
     float: left;
+}
+
+/*IMAGE POSTS :))))))*/
+
+img{
+    height:500px;
+    margin:8px;
+    display:flex;
+
+    border-bottom:rgb(141, 81, 138) solid 2px;
+    border-right:rgb(141, 81, 138) solid 2px;
+
 }
